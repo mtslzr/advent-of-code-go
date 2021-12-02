@@ -2,7 +2,7 @@
 Go answers for the [Advent of Code][1] events.
 
 ## 2021
-✅ Day 1
+✅ Day 1 - 2
 
 ## 2019
 ✅ Day 1 - 2
