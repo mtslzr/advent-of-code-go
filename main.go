@@ -21,7 +21,7 @@ func main() {
 			switch os.Args[2] {
 			case "day1":
 				day1.Part1()
-				//day1.Part2()
+				day1.Part2()
 			}
 		case "2021":
 			switch os.Args[2] {
