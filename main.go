@@ -7,8 +7,9 @@ import (
 	day118 "github.com/mtslzr/advent-of-code-go/2018/day1"
 	day119 "github.com/mtslzr/advent-of-code-go/2019/day1"
 	day219 "github.com/mtslzr/advent-of-code-go/2019/day2"
-	"github.com/mtslzr/advent-of-code-go/2021/day1"
-	"github.com/mtslzr/advent-of-code-go/2021/day2"
+	day121 "github.com/mtslzr/advent-of-code-go/2021/day1"
+	day221 "github.com/mtslzr/advent-of-code-go/2021/day2"
+	"github.com/mtslzr/advent-of-code-go/2023/day1"
 )
 
 func main() {
@@ -16,14 +17,20 @@ func main() {
 		fmt.Println("Usage: go run main.go <year> <day>")
 	} else {
 		switch os.Args[1] {
-		case "2021":
+		case "2023":
 			switch os.Args[2] {
 			case "day1":
 				day1.Part1()
-				day1.Part2()
+				//day1.Part2()
+			}
+		case "2021":
+			switch os.Args[2] {
+			case "day1":
+				day121.Part1()
+				day121.Part2()
 			case "day2":
-				day2.Part1()
-				day2.Part2()
+				day221.Part1()
+				day221.Part2()
 			}
 		case "2019":
 			switch os.Args[2] {
