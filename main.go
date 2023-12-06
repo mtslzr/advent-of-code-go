@@ -10,6 +10,7 @@ import (
 	day121 "github.com/mtslzr/advent-of-code-go/2021/day1"
 	day221 "github.com/mtslzr/advent-of-code-go/2021/day2"
 	"github.com/mtslzr/advent-of-code-go/2023/day1"
+	"github.com/mtslzr/advent-of-code-go/2023/day2"
 )
 
 func main() {
@@ -22,6 +23,9 @@ func main() {
 			case "day1":
 				day1.Part1()
 				day1.Part2()
+			case "day2":
+				day2.Part1()
+				day2.Part2()
 			}
 		case "2021":
 			switch os.Args[2] {
